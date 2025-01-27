@@ -12,7 +12,7 @@ NumberOfModules=1
 Version=10
 @EndOfDesignText@
 #Region Project Attributes
-' Version: 				0.70
+' Version: 				0.80
 ' Developer:			Poon Yip Hoon (Aeric) (https://www.b4x.com/android/forum/members/aeric.74499/)
 ' Donation:				PayPal (https://paypal.me/aeric80/)
 ' *** IDE Shorcuts ***
@@ -23,7 +23,7 @@ Version=10
 
 Sub Process_Globals
 	Public srvr 				As Server
-	Public Const VERSION_NAME	As String = "0.70"
+	Public Const VERSION_NAME	As String = "0.80"
 End Sub
 
 ' <link>Open in browser|http://127.0.0.1:8080</link>
