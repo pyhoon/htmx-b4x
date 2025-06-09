@@ -98,7 +98,10 @@ Sub GenerateIndex As String
 	.hxTrigger("click") _
 	.attribute2(CreateMap("data-bs-toggle": "modal", "data-bs-target": "#modals-here")) _
 	.addClass("btn btn-primary text-uppercase") _
-	.up(div2).uniline
+	.up(div2)
+	
+'	Dim block As String = "<p>This is a <b>raw</b> HTML</p>"
+'	div2.add(Html.create("").Text(block))
 	
 	Return html1.Build
 End Sub
